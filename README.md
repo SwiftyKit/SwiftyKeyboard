@@ -9,11 +9,18 @@ SwiftyKeyboard is an iOS customized enhanced keyboard. This keyboard view is int
 
 And it supports customize the UI of keys, and the positions etc. In the other word, SwiftyKeyboard is a full customized numeric keyboard for iOS.
 
+
+
 iPad ScreenShot:
+
 ![enter image description here](https://github.com/SwiftyKit/SwiftyKeyboard/raw/master/Images/shot1.gif)
 
+
+
 iPhone ScreenShot:
+
 ![enter image description here](https://github.com/SwiftyKit/SwiftyKeyboard/raw/master/Images/shot2.gif)
+
  
 ## Installation
  
