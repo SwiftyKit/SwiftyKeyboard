@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		2F9531DEEBBF8E0E5B5C5205176109A7 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3666E01CF3B1BB3B5EB22455C1F1E4F6 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36660E5300C106E116AB6054FCE03524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3667F656552C9483890D6A8F064797C7 /* SwiftyKeyboardButton+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E142E563CDD09697147A2D0B750B1C /* SwiftyKeyboardButton+Styles.swift */; };
-		38A03DB4FC5C57897DFD1B1FFA6B9B5C /* SwiftyKeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1AB2BA9B4D5520C252630B63CF96CC /* SwiftyKeyboardButton.swift */; };
-		4170D8C6DCE0B5EAA943071B987AE236 /* SwiftyKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EA0C1E37B56AF1A41A5E6BA82CBDF /* SwiftyKeyboard.swift */; };
-		6F2746240D185D103B169AE89D9439B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9A71CC4C3AF4C7009118DEF3B66E1F37 /* numberKeyboard_delete.png in Sources */ = {isa = PBXBuildFile; fileRef = 6E493ABFCDCD7CA60C8F7834DF653F9B /* numberKeyboard_delete.png */; };
-		ABCF8DDEBFE50C2BCC9C2B6A8D85BEC3 /* SwiftyKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA906D7BC79EA80E892F6F64938510 /* SwiftyKeyboard-dummy.m */; };
-		B29DC389A24894780B8E0B5423752669 /* numberKeyboard_dismiss.png in Sources */ = {isa = PBXBuildFile; fileRef = EC883A8E7C4B5036C8A9994F4AC26FF0 /* numberKeyboard_dismiss.png */; };
-		BED8D9F2C8AA57D822DF732D93BB6BE7 /* SwiftyKeyboardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258E0EA67DE6E75EE4AD4771AB7A184D /* SwiftyKeyboardDelegate.swift */; };
-		D4F0F30FC8CB42CDF4DF92D9FDFFE5BA /* SwiftyKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F63795B51C000DCC486BD5A84503C6D1 /* SwiftyKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		396D1729529C4859E9391DE6EB06AC69 /* numberKeyboard_dismiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E386F9D415D547BF94EA9F5088F921 /* numberKeyboard_dismiss.png */; };
+		4A9348A9A4939DA23D46F17F7D0968B7 /* SwiftyKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D6F570A2E6FA2F64B45F4F2040ACA /* SwiftyKeyboard.swift */; };
+		68D09834E7FA6F1E7E8A8CB3A5C9CDB4 /* SwiftyKeyboardButton+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5C4C9EDA70281CFF10E5D082046C9 /* SwiftyKeyboardButton+Styles.swift */; };
+		7C7172242BB2A7BDB353BC87BED7A78A /* numberKeyboard_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 105ACA8B3C8FB6911C0CBC5579668548 /* numberKeyboard_delete.png */; };
+		8C00147E9B845D96C538314243F9E8D1 /* SwiftyKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E197B224746038BE9D26042FB99E7074 /* SwiftyKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94DF268B60274D20574805352BA089CC /* SwiftyKeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9907BDF637E244A199D6681728899 /* SwiftyKeyboardButton.swift */; };
+		9DA7415DBC80DC0D537958766EE5DAFF /* SwiftyKeyboardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073452D154A619F2893861886F39EE28 /* SwiftyKeyboardDelegate.swift */; };
+		9FCE55214C30214E14EEE3B4F621B100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A928D9AFBCAFBE06D9C373F2A1CA1787 /* SwiftyKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5B9085D868190D631603FAC83C812 /* SwiftyKeyboard-dummy.m */; };
 		F24800EB763E9F98B455B50486F35A50 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0B6886FC27E9B0BED9829A43F1D61 /* Pods-Demo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5F8EEF6134C623C31F2DCDF1E2561087 /* PBXContainerItemProxy */ = {
+		4445F215A3FA02CE79A961D22910824D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -32,35 +32,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043D6F570A2E6FA2F64B45F4F2040ACA /* SwiftyKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyKeyboard.swift; path = Sources/SwiftyKeyboard.swift; sourceTree = "<group>"; };
 		06F3E5C6ECF6318B927DEBF7D3F68023 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		073452D154A619F2893861886F39EE28 /* SwiftyKeyboardDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyKeyboardDelegate.swift; path = Sources/SwiftyKeyboardDelegate.swift; sourceTree = "<group>"; };
 		0FC0B6886FC27E9B0BED9829A43F1D61 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
-		258E0EA67DE6E75EE4AD4771AB7A184D /* SwiftyKeyboardDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyKeyboardDelegate.swift; path = Sources/SwiftyKeyboardDelegate.swift; sourceTree = "<group>"; };
+		105ACA8B3C8FB6911C0CBC5579668548 /* numberKeyboard_delete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = numberKeyboard_delete.png; path = Sources/assets/numberKeyboard_delete.png; sourceTree = "<group>"; };
+		14A9907BDF637E244A199D6681728899 /* SwiftyKeyboardButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyKeyboardButton.swift; path = Sources/SwiftyKeyboardButton.swift; sourceTree = "<group>"; };
 		286FB7ED904A7A0E1C9B3D6791672A8D /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		2B1AB2BA9B4D5520C252630B63CF96CC /* SwiftyKeyboardButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyKeyboardButton.swift; path = Sources/SwiftyKeyboardButton.swift; sourceTree = "<group>"; };
+		2AD5B9085D868190D631603FAC83C812 /* SwiftyKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyKeyboard-dummy.m"; sourceTree = "<group>"; };
 		3666E01CF3B1BB3B5EB22455C1F1E4F6 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
-		3FAA906D7BC79EA80E892F6F64938510 /* SwiftyKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyKeyboard-dummy.m"; sourceTree = "<group>"; };
-		43B07876B17EAE4EAF9026324333A7C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4A2261B1B4AF1ECE41B662E38612C1E4 /* SwiftyKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		57551C3D895912914E388B612AF9F2F8 /* SwiftyKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyKeyboard-Info.plist"; sourceTree = "<group>"; };
 		5D30FDAD8CECC381F32FF5F5B52175BC /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		6E493ABFCDCD7CA60C8F7834DF653F9B /* numberKeyboard_delete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = numberKeyboard_delete.png; sourceTree = "<group>"; };
-		700EA0C1E37B56AF1A41A5E6BA82CBDF /* SwiftyKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyKeyboard.swift; path = Sources/SwiftyKeyboard.swift; sourceTree = "<group>"; };
+		5FC16F1D7223B7E38A10E95157A6C61D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		63E107B598EB0210036BEBC8933D405D /* SwiftyKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyKeyboard.release.xcconfig; sourceTree = "<group>"; };
+		674489BAEDBAA93D219D76E9CFBCFC91 /* SwiftyKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyKeyboard-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75E386F9D415D547BF94EA9F5088F921 /* numberKeyboard_dismiss.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = numberKeyboard_dismiss.png; path = Sources/assets/numberKeyboard_dismiss.png; sourceTree = "<group>"; };
+		77B88C95DC4CD50ED4EFF31D9F3EDF79 /* SwiftyKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyKeyboard.modulemap; sourceTree = "<group>"; };
 		77EBCE1FFE347A3644369F0343168C1D /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		7E65ADC3B1644FF0F90473EEE697A2FF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
-		822711A6B59DEDB2948909D39D345C47 /* SwiftyKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyKeyboard.modulemap; sourceTree = "<group>"; };
-		881E9929015DEB66A771A81F38E3CF48 /* SwiftyKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyKeyboard.debug.xcconfig; sourceTree = "<group>"; };
+		880B24B2D3EF6425A3247D06E2A4ACA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2E142E563CDD09697147A2D0B750B1C /* SwiftyKeyboardButton+Styles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyKeyboardButton+Styles.swift"; path = "Sources/SwiftyKeyboardButton+Styles.swift"; sourceTree = "<group>"; };
-		A63E9F5F5CE55D279D44A3F0BAD94636 /* SwiftyKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyKeyboard-Info.plist"; sourceTree = "<group>"; };
 		A742B1E3C1AC62A0096E49C5B062C1EA /* SwiftyKeyboard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyKeyboard; path = SwiftyKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA54C911781BF51EC12B4A7229A08CFA /* SwiftyKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA56ED03ECFBCB5DF39B0E229565139F /* SwiftyKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C694DE63ED5EAB66E3CA6D184271692B /* Pods-Demo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Demo"; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6122A59A8B7C4F0795FF194D011F04 /* SwiftyKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyKeyboard.release.xcconfig; sourceTree = "<group>"; };
-		D0982ED6C70031D48E7C967F1539D388 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D5E482595D46EC0536541A05A6106748 /* SwiftyKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyKeyboard.debug.xcconfig; sourceTree = "<group>"; };
 		DDEDDEA5E8747667A9BBE52BA22B088D /* Pods-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-Info.plist"; sourceTree = "<group>"; };
 		E14C7B5E452F2DDF30E90A3950EE1807 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC883A8E7C4B5036C8A9994F4AC26FF0 /* numberKeyboard_dismiss.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = numberKeyboard_dismiss.png; sourceTree = "<group>"; };
-		F63795B51C000DCC486BD5A84503C6D1 /* SwiftyKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		E197B224746038BE9D26042FB99E7074 /* SwiftyKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		FBD5C4C9EDA70281CFF10E5D082046C9 /* SwiftyKeyboardButton+Styles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyKeyboardButton+Styles.swift"; path = "Sources/SwiftyKeyboardButton+Styles.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,27 +72,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF5C6D6C3EFFDDD700D76885C7914579 /* Frameworks */ = {
+		FB7C4B7E57DBADFDD7B487BEB1B3EFBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F2746240D185D103B169AE89D9439B6 /* Foundation.framework in Frameworks */,
+				9FCE55214C30214E14EEE3B4F621B100 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E4A7F0BF374DC72F871500FBFBC391F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D0982ED6C70031D48E7C967F1539D388 /* LICENSE */,
-				43B07876B17EAE4EAF9026324333A7C6 /* README.md */,
-				AA54C911781BF51EC12B4A7229A08CFA /* SwiftyKeyboard.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		21FF7982FCED7A76D3B9EB72011DACF2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +91,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		481CDB486AA5A799D314C40A1A279FE3 /* Development Pods */ = {
+		2FE7DF050C52D12C8A54BA030479BEAF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A00184411CB7561788508568F54D981C /* SwiftyKeyboard */,
+				5FC16F1D7223B7E38A10E95157A6C61D /* LICENSE */,
+				880B24B2D3EF6425A3247D06E2A4ACA1 /* README.md */,
+				BA56ED03ECFBCB5DF39B0E229565139F /* SwiftyKeyboard.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3CF9EFE42B57DCA9A76AA0F1846A2B8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77B88C95DC4CD50ED4EFF31D9F3EDF79 /* SwiftyKeyboard.modulemap */,
+				2AD5B9085D868190D631603FAC83C812 /* SwiftyKeyboard-dummy.m */,
+				57551C3D895912914E388B612AF9F2F8 /* SwiftyKeyboard-Info.plist */,
+				674489BAEDBAA93D219D76E9CFBCFC91 /* SwiftyKeyboard-prefix.pch */,
+				E197B224746038BE9D26042FB99E7074 /* SwiftyKeyboard-umbrella.h */,
+				D5E482595D46EC0536541A05A6106748 /* SwiftyKeyboard.debug.xcconfig */,
+				63E107B598EB0210036BEBC8933D405D /* SwiftyKeyboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftyKeyboard";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -117,26 +124,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6B93A84D996E181373FC1EFB41F3EC1C /* assets */ = {
+		9B75EEF72F3E9138214ECEE01B2215E5 /* SwiftyKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				6E493ABFCDCD7CA60C8F7834DF653F9B /* numberKeyboard_delete.png */,
-				EC883A8E7C4B5036C8A9994F4AC26FF0 /* numberKeyboard_dismiss.png */,
-			);
-			name = assets;
-			path = Sources/assets;
-			sourceTree = "<group>";
-		};
-		A00184411CB7561788508568F54D981C /* SwiftyKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				700EA0C1E37B56AF1A41A5E6BA82CBDF /* SwiftyKeyboard.swift */,
-				2B1AB2BA9B4D5520C252630B63CF96CC /* SwiftyKeyboardButton.swift */,
-				A2E142E563CDD09697147A2D0B750B1C /* SwiftyKeyboardButton+Styles.swift */,
-				258E0EA67DE6E75EE4AD4771AB7A184D /* SwiftyKeyboardDelegate.swift */,
-				6B93A84D996E181373FC1EFB41F3EC1C /* assets */,
-				0E4A7F0BF374DC72F871500FBFBC391F /* Pod */,
-				F10967328ADD4BD14BBA246C23871BCD /* Support Files */,
+				105ACA8B3C8FB6911C0CBC5579668548 /* numberKeyboard_delete.png */,
+				75E386F9D415D547BF94EA9F5088F921 /* numberKeyboard_dismiss.png */,
+				043D6F570A2E6FA2F64B45F4F2040ACA /* SwiftyKeyboard.swift */,
+				14A9907BDF637E244A199D6681728899 /* SwiftyKeyboardButton.swift */,
+				FBD5C4C9EDA70281CFF10E5D082046C9 /* SwiftyKeyboardButton+Styles.swift */,
+				073452D154A619F2893861886F39EE28 /* SwiftyKeyboardDelegate.swift */,
+				2FE7DF050C52D12C8A54BA030479BEAF /* Pod */,
+				3CF9EFE42B57DCA9A76AA0F1846A2B8F /* Support Files */,
 			);
 			name = SwiftyKeyboard;
 			path = ../..;
@@ -172,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				481CDB486AA5A799D314C40A1A279FE3 /* Development Pods */,
+				DC91A67BECBED82DAC18974F14F4FB88 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C73E7F72B32AF23E5A49C166C8B97C39 /* Products */,
 				21FF7982FCED7A76D3B9EB72011DACF2 /* Targets Support Files */,
@@ -187,19 +185,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F10967328ADD4BD14BBA246C23871BCD /* Support Files */ = {
+		DC91A67BECBED82DAC18974F14F4FB88 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				822711A6B59DEDB2948909D39D345C47 /* SwiftyKeyboard.modulemap */,
-				3FAA906D7BC79EA80E892F6F64938510 /* SwiftyKeyboard-dummy.m */,
-				A63E9F5F5CE55D279D44A3F0BAD94636 /* SwiftyKeyboard-Info.plist */,
-				4A2261B1B4AF1ECE41B662E38612C1E4 /* SwiftyKeyboard-prefix.pch */,
-				F63795B51C000DCC486BD5A84503C6D1 /* SwiftyKeyboard-umbrella.h */,
-				881E9929015DEB66A771A81F38E3CF48 /* SwiftyKeyboard.debug.xcconfig */,
-				CF6122A59A8B7C4F0795FF194D011F04 /* SwiftyKeyboard.release.xcconfig */,
+				9B75EEF72F3E9138214ECEE01B2215E5 /* SwiftyKeyboard */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftyKeyboard";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,11 +204,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F97A2BFBF8D858FE948CECDC6C147BC6 /* Headers */ = {
+		DC715BF5F57FECC0495C407388CC141A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F0F30FC8CB42CDF4DF92D9FDFFE5BA /* SwiftyKeyboard-umbrella.h in Headers */,
+				8C00147E9B845D96C538314243F9E8D1 /* SwiftyKeyboard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +227,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8632CB79D3EA464EFCFAF366E65A92C7 /* PBXTargetDependency */,
+				1950AD07EF860A34C3C983E02B420DE6 /* PBXTargetDependency */,
 			);
 			name = "Pods-Demo";
 			productName = Pods_Demo;
@@ -245,12 +236,12 @@
 		};
 		CE12155FD8D4FCE46BD76263A573AA69 /* SwiftyKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58EFC8437EEAB4B06BA44C7747261A93 /* Build configuration list for PBXNativeTarget "SwiftyKeyboard" */;
+			buildConfigurationList = F1D4B246802CB300C0B0E6B38622D95D /* Build configuration list for PBXNativeTarget "SwiftyKeyboard" */;
 			buildPhases = (
-				F97A2BFBF8D858FE948CECDC6C147BC6 /* Headers */,
-				DABF0705A6503A6CB93C2E4C94B1E20D /* Sources */,
-				FF5C6D6C3EFFDDD700D76885C7914579 /* Frameworks */,
-				EE3573EDE1B593A4F5E11DC03B27A727 /* Resources */,
+				DC715BF5F57FECC0495C407388CC141A /* Headers */,
+				3CE032BA2DAB91EA278BB2BE141B6DC5 /* Sources */,
+				FB7C4B7E57DBADFDD7B487BEB1B3EFBB /* Frameworks */,
+				77D8A3FF727D01DF0616801EE073CAC8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -297,16 +288,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE3573EDE1B593A4F5E11DC03B27A727 /* Resources */ = {
+		77D8A3FF727D01DF0616801EE073CAC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7172242BB2A7BDB353BC87BED7A78A /* numberKeyboard_delete.png in Resources */,
+				396D1729529C4859E9391DE6EB06AC69 /* numberKeyboard_dismiss.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3CE032BA2DAB91EA278BB2BE141B6DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9348A9A4939DA23D46F17F7D0968B7 /* SwiftyKeyboard.swift in Sources */,
+				A928D9AFBCAFBE06D9C373F2A1CA1787 /* SwiftyKeyboard-dummy.m in Sources */,
+				94DF268B60274D20574805352BA089CC /* SwiftyKeyboardButton.swift in Sources */,
+				68D09834E7FA6F1E7E8A8CB3A5C9CDB4 /* SwiftyKeyboardButton+Styles.swift in Sources */,
+				9DA7415DBC80DC0D537958766EE5DAFF /* SwiftyKeyboardDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF0C82B635568D03960E989E9863E583 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,35 +320,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DABF0705A6503A6CB93C2E4C94B1E20D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A71CC4C3AF4C7009118DEF3B66E1F37 /* numberKeyboard_delete.png in Sources */,
-				B29DC389A24894780B8E0B5423752669 /* numberKeyboard_dismiss.png in Sources */,
-				4170D8C6DCE0B5EAA943071B987AE236 /* SwiftyKeyboard.swift in Sources */,
-				ABCF8DDEBFE50C2BCC9C2B6A8D85BEC3 /* SwiftyKeyboard-dummy.m in Sources */,
-				38A03DB4FC5C57897DFD1B1FFA6B9B5C /* SwiftyKeyboardButton.swift in Sources */,
-				3667F656552C9483890D6A8F064797C7 /* SwiftyKeyboardButton+Styles.swift in Sources */,
-				BED8D9F2C8AA57D822DF732D93BB6BE7 /* SwiftyKeyboardDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8632CB79D3EA464EFCFAF366E65A92C7 /* PBXTargetDependency */ = {
+		1950AD07EF860A34C3C983E02B420DE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyKeyboard;
 			target = CE12155FD8D4FCE46BD76263A573AA69 /* SwiftyKeyboard */;
-			targetProxy = 5F8EEF6134C623C31F2DCDF1E2561087 /* PBXContainerItemProxy */;
+			targetProxy = 4445F215A3FA02CE79A961D22910824D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		29F23996AAFA22A2A6E1ECF7656123B1 /* Release */ = {
+		3C7ACD29A36508EFED7E55693AA65EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF6122A59A8B7C4F0795FF194D011F04 /* SwiftyKeyboard.release.xcconfig */;
+			baseConfigurationReference = 5D30FDAD8CECC381F32FF5F5B52175BC /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E809C6DECB37066968CD9B97B0AEA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E107B598EB0210036BEBC8933D405D /* SwiftyKeyboard.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -377,11 +405,10 @@
 			};
 			name = Release;
 		};
-		3C7ACD29A36508EFED7E55693AA65EE1 /* Debug */ = {
+		4E720897A478BE22FE9472C80B2991C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D30FDAD8CECC381F32FF5F5B52175BC /* Pods-Demo.debug.xcconfig */;
+			baseConfigurationReference = D5E482595D46EC0536541A05A6106748 /* SwiftyKeyboard.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -391,7 +418,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyKeyboard/SwiftyKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyKeyboard/SwiftyKeyboard-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -399,15 +427,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftyKeyboard/SwiftyKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyKeyboard;
+				PRODUCT_NAME = SwiftyKeyboard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -514,41 +540,6 @@
 			};
 			name = Release;
 		};
-		AC3FCDD217FD84010CBF97BC848699A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 881E9929015DEB66A771A81F38E3CF48 /* SwiftyKeyboard.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyKeyboard/SwiftyKeyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyKeyboard/SwiftyKeyboard-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyKeyboard/SwiftyKeyboard.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyKeyboard;
-				PRODUCT_NAME = SwiftyKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -627,20 +618,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58EFC8437EEAB4B06BA44C7747261A93 /* Build configuration list for PBXNativeTarget "SwiftyKeyboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC3FCDD217FD84010CBF97BC848699A1 /* Debug */,
-				29F23996AAFA22A2A6E1ECF7656123B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DA4CBD593BC9D3679EF0FBB66B358F3B /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C7ACD29A36508EFED7E55693AA65EE1 /* Debug */,
 				5A9F7837B7D032E5C0216344671B65F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D4B246802CB300C0B0E6B38622D95D /* Build configuration list for PBXNativeTarget "SwiftyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E720897A478BE22FE9472C80B2991C3 /* Debug */,
+				3E809C6DECB37066968CD9B97B0AEA4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

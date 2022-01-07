@@ -21,9 +21,9 @@
   },
   "source_files": [
     "Sources/*.swift",
-    "Sources/SwiftyKeyboard.h",
-    "Sources/assets/*"
+    "Sources/SwiftyKeyboard.h"
   ],
+  "resources": "Sources/assets/*",
   "exclude_files": "Classes/Exclude",
   "swift_version": "4.0"
 }

@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftyKeyboard: 02ae5700989de635e47f7e6d9c74466f9ccf25d4
+  SwiftyKeyboard: 8f0ef6e34787b1666a85eda9e9b4c8871e18aa0e
 
 PODFILE CHECKSUM: 4934f5d402eecceb76778ee08a98b356414c4a84
 
