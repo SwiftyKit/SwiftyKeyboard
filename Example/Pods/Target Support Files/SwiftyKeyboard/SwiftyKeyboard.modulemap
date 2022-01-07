@@ -1,0 +1,6 @@
+framework module SwiftyKeyboard {
+  umbrella header "SwiftyKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

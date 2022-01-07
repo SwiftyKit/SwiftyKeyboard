@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pbg-ia-kDB">
+                                <rect key="frame" x="67.5" y="103" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="6tn-ir-bkX"/>
+                                    <constraint firstAttribute="height" constant="128" id="9RF-zZ-zsL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="02j-ed-L1v">
+                                <rect key="frame" x="37.5" y="295" width="300" height="28.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Hwu-82-JPm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="02j-ed-L1v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="32P-Kc-jhE"/>
+                            <constraint firstItem="Pbg-ia-kDB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="OUU-Ae-2Xn"/>
+                            <constraint firstItem="02j-ed-L1v" firstAttribute="top" secondItem="Pbg-ia-kDB" secondAttribute="bottom" constant="64" id="TaY-Qf-vUr"/>
+                            <constraint firstItem="Pbg-ia-kDB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cTm-Bb-xO5"/>
+                        </constraints>
+                        <connections>
+                            <action selector="closeKeyboard" destination="BYZ-38-t0r" eventType="touchUpInside" id="K0M-CM-7bD"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="02j-ed-L1v" id="Hdg-gh-cHQ"/>
+                        <outlet property="textView" destination="Pbg-ia-kDB" id="NL4-da-Vl8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-47" y="109"/>
+        </scene>
+    </scenes>
+</document>
