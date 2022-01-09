@@ -46,7 +46,7 @@ Drag 'n drop SwiftyTextView.swift into your project.
         yourTextField.inputView = numbericKeyboard  // yourTextField is the pre defined textField
         numbericKeyboard.keyInput = yourTextField
         numbericKeyboard.delegate = self
-        numbericKeyboard.allowsDecimalPoint = true  // can set the true of false
+        numbericKeyboard.allowsDecimalPoint = true  // can set as true or false
 ```
 
 ## Requirements
