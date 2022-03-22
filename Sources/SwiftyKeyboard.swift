@@ -16,7 +16,7 @@ import UIKit
 @objcMembers public class SwiftyKeyboard: UIInputView, UIInputViewAudioFeedback {
 
     // MARK: - UIInputViewAudioFeedback
-    private var enableInputClicksWhenVisible: Bool = true
+    public var enableInputClicksWhenVisible: Bool = true
 
     // MARK: - Constants
     private let keyboardRows                = 4
