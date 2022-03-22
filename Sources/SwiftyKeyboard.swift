@@ -16,7 +16,7 @@ import UIKit
 @objcMembers public class SwiftyKeyboard: UIInputView, UIInputViewAudioFeedback {
 
     // MARK: - UIInputViewAudioFeedback
-    private var enableInputClicksWhenVisible: Bool = true
+    public var enableInputClicksWhenVisible: Bool = true
 
     // MARK: - Constants
     private let keyboardRows                = 4
@@ -205,7 +205,7 @@ import UIKit
             self.addSubview(button)
         }
 
-        if UI_USER_INTERFACE_IDIOM() == .phone {
+        if UIDevice.current.userInterfaceIdiom == .phone {
             for separatorView in self.separatorViews {
                 self.addSubview(separatorView)
             }
@@ -373,7 +373,7 @@ import UIKit
         let bounds = self.bounds
 
         // Settings.
-        let interfaceIdiom = UI_USER_INTERFACE_IDIOM()
+        let interfaceIdiom = UIDevice.current.userInterfaceIdiom
         let spacing : CGFloat = (interfaceIdiom == .pad) ? self.keyboardPadBorder : 0.0
         let allowsDecimalPoint = self.allowsDecimalPoint
 
@@ -511,7 +511,7 @@ import UIKit
     }
 
     public override func sizeThatFits(_ size: CGSize) -> CGSize {
-        let interfaceIdiom = UI_USER_INTERFACE_IDIOM()
+        let interfaceIdiom = UIDevice.current.userInterfaceIdiom
         let spacing = (interfaceIdiom == .pad) ? self.keyboardPadBorder : 0.0
 
         var newSize = size
